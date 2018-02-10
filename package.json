@@ -1,0 +1,31 @@
+{
+  "name": "wepy-plugin-mockdata",
+  "version": "1.0.1",
+  "description": "WePY MockServer模拟数据配置合并插件",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel --presets es2015,stage-1 src/ --out-dir lib/ --source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wepy",
+    "plugin",
+    "mock",
+    "jsonmerge"
+  ],
+  "author": "jsonzhou",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzyss86/wepy-plugin-mockdata.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0"
+  }
+}
